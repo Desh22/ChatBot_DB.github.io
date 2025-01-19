@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat DB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor_chat">
+        <!-- Encabezado -->
+        <header class="chat-header">
+            <div class="chat-title">
+                <h1>Chat DB</h1>
+            </div>
+            <div class="chat-logo">
+                <img src="img/logo.png" alt="Logo del Chat DB">
+            </div>
+        </header>
+
+        <!-- Contenedor del Chat -->
+        <main class="chat-container">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Mensajes dinámicos aparecerán aquí -->
+            </div>
+            <footer class="chat-footer">
+                <input type="text" id="message-input" placeholder="Haz una pregunta o di algo..." />
+                <button id="send-button">Enviar</button>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
